@@ -1,5 +1,31 @@
-.test {
+.top{
 
-background-color: red;
+background-color: #ff8a80;
+height: 210px;
+padding-top: 30px;
+
+}
+
+.wideNav {
+
+  padding: 0px;
+}
+
+li:hover {
+
+  background-color: black;
+  margin-top: 0px;
+}
+
+.wideButton {
+
+  padding: 20px;
+}
+
+.main-image {
+
+  height: 350px;
+  background-repeat: repeat-x;
+  background-size: cover;
 
 }
