@@ -18,36 +18,19 @@
 <!--Font Awesome CDN-->
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-<!--Materialize CDN & Javascript-->
+<!--Materialize CSS-->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<link rel="stylesheet" href="assets/css/materialize.min.css" type="text/css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<!--JQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>  
+
 
 </head>
 
 <body>
 
 <!--Main Container-->
-
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">About Me</a></li>
-        <li><a href="collapsible.html">Projects</a></li>
-        <li><a href="mobile.html">Contact Me</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-    </div>
-  </nav>
 
 <div class="top">
   <div class="row center-align">
@@ -59,13 +42,48 @@
   </div>
 </div>
 
-  <div class="main-area">
-    <img src="assets/images/mid-section.jpg" class="main-image">
+  <nav class=>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Todd Germaine</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact Me</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="aboutArea" id="about">
+  <h3>About Me</h3>
   </div> <!--End of Main Container-->
 
 
+  <div class="projectArea" id="projects">
+  <h3>Projects</h3>
+  </div>
+
+  <div class="contactArea" id="contacts">
+  <h3>Contact Me</h3>
+  </div>
+
+ <!--  <div id="test"></div> -->
+
 </body>
 
+<!--Materialize Javascript-->
+
+<script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
+
 <script type="text/javascript" src="assets/javascript/navbar.js"></script>
+
+<script type="text/javascript" src="assets/javascript/scroll.js"></script>
 
 </html>
