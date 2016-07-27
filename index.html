@@ -3,17 +3,13 @@
 
 <title>Todd Germaine Web Portfolio</title>
 
-<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
-<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <!--Jquery CDN-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-
-<!-- Bootstrap CDN -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- -->
-<!-- Bootstrap Javascript CDN -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
 <!--Font Awesome CDN-->
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -22,9 +18,15 @@
 
 <link rel="stylesheet" href="assets/css/materialize.min.css" type="text/css">
 
+<!--CSS-->
+<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+
 <!--JQuery CDN-->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>  
 
+<!--Wow JS-->
+<link rel="stylesheet" href="assets/css/animate.css">
 
 </head>
 
@@ -35,13 +37,25 @@
 <div class="top">
   <div class="row center-align">
     <div class="col l5">
-     <img src="assets/images/todd.jpg" alt="todd" height="150px" width="150px" class="img-rounded">
+     <img src="assets/images/todd-1.jpg" alt="todd" height="220px" width="135px" class="responsive-img rounded">
     </div>
     <div class="col l7"><h4>Welcome To My Portfolio</h4>
     </div>
   </div>
 </div>
 
+<!-- <div class="slider fullscreen">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> random image
+        <div class="caption center-align">
+          <h3>Test 1</h3>
+          <h5 class="light grey-text text-lighten-3">How do I look?</h5>
+        </div>
+      </li>
+    </ul>
+  </div> -->
+      
   <nav class="main-nav">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo">Todd Germaine</a>
@@ -52,6 +66,80 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contacts">Contact Me</a></li>
       </ul>
+      <ul class="side-nav higher" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="aboutArea" id="about">
+  <h3>About Me</h3>
+
+
+  </div> <!--End of Main Container-->
+
+
+  <div class="projectArea" data-parallax="scroll" data-image-src="../images/bg-2.jpeg" id="projects">
+  <h3>Projects</h3>
+  </div>
+
+  <div class="contactArea" id="contacts">
+  <h3>Contact Me</h3>
+
+<div class="section">
+  <div class="container">
+
+  <!-- Form Structure -->
+ 
+  <div class="row formBg wow fadeInLeft"> 
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="phoneNumber" type="tel" class="validate">
+          <label for="phoneNumber">Phone</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+      <div class="row center-align">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat teal accent-3 btn-hover">Submit</a>
+      </div>
+    </form> 
+   </div>
+  </div>
+</div>
+
+ <!--  <div id="test"></div> -->
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
@@ -60,22 +148,7 @@
       </ul>
     </div>
   </nav>
-
-  <div class="aboutArea" id="about">
-  <h3>About Me</h3>
-  </div> <!--End of Main Container-->
-
-
-  <div class="projectArea" id="projects">
-  <h3>Projects</h3>
-  </div>
-
-  <div class="contactArea" id="contacts">
-  <h3>Contact Me</h3>
-  </div>
-
- <!--  <div id="test"></div> -->
-
+  
 </body>
 
 <!--Materialize Javascript-->
@@ -86,4 +159,10 @@
 
 <script type="text/javascript" src="assets/javascript/scroll.js"></script>
 
+<script type="text/javascript" src="assets/javascript/parallax.min.js"></script>
+<script type="text/javascript" src="assets/javascript/parallax.js"></script>
+
+<script src="assets/javascript/wow.min.js"></script>
+            
 </html>
+

@@ -15,7 +15,8 @@ body {
 
 .top{
 
-  background-color: white;
+  background: url(../images/mid-section.jpg) no-repeat;
+  /*background-color: white;*/
   height: 300px;
   width: 100%;
   padding-top: 40px;
@@ -31,7 +32,7 @@ body {
 
 li:hover {
 
-  background-color: black;
+  /*background-color: black;*/
   margin-top: 0px;
 }
 
@@ -51,38 +52,41 @@ li:hover {
 
   background:url(../images/bg-0.jpeg);
   /*Add Position Fixed*/
-  padding: 100px 50px 50px;
+  padding: 64px 50px 50px;
   position: relative;
   height: 650px;
   background-size: cover;
+ /* z-index: 300;*/
 }
 
 .projectArea {
 
   background:url(../images/bg-2.jpeg);
-  padding: 100px 50px 50px;
+  padding: 64px 50px 50px;
   /*Add Position Fixed*/
   position: relative;
   height: 650px;
   background-size: cover;
+ /* z-index: 300;*/
 }
 
 .contactArea {
 
   background:url(../images/bg-3.jpeg);
-  padding: 100px 50px 50px;
+  padding: 64px 50px 50px;
   position: relative;
   /*Add Position Fixed*/
   height: 650px;
   background-size: cover;
+ /* z-index: 300;*/
 }
 
 .nav-wrapper {
 
   z-index: 400;
-  height: 80px;
+  height: 64px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
-  margin-bottom: -80px;
+  margin-bottom: -125px;
   background-color: black;
   position: relative;
 }
@@ -92,13 +96,61 @@ li:hover {
   top: 0px;
   width: 100%;
   position: fixed;
-  z-index: 500;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, .4);
  
 }
+
+.modalBig {
+
+  height: 700px;
+}
+
+.formBg {
+
+  background: rgba(250, 250, 250, 1);
+  padding: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+
+a.btn-hover:hover {
+
+ background-color: #a7ffeb;
+}
+
+.rounded {
+
+  border-radius: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+
+#mobile-demo {
+
+  z-index: 1000;
+
+}
+
+#sidenav-overlay {
+
+  z-index: -1;
+}
+
+#sidenav-overlay:hover {
+
+  color: white;
+
+}
+
 
 h3 {
 
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+h4 {
+
+  color: white;
+
 }
