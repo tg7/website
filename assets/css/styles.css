@@ -122,7 +122,7 @@ a.btn-hover:hover {
 
 .rounded {
 
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
 }
 
@@ -137,6 +137,16 @@ a.btn-hover:hover {
   display: block;
   width: 100%;
 /*  background-size: cover;*/
+}
+
+.shadow {
+
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.298);
+}
+
+.shadow-lighter {
+
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.298);
 }
 
 #mobile-demo {
@@ -156,8 +166,24 @@ a.btn-hover:hover {
 
 }
 
+.about-container {
 
+  background: rgba(0 ,0, 0, 0.298);
+  padding: 10px 25px 5px 25px;
+}
 
+blockquote {
+
+  border-left: solid 5px black;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*.space {
+  padding-left: px;
+  
+}
+*/
 h3 {
 
   color: white;
@@ -168,5 +194,13 @@ h3 {
 h4 {
 
   color: white;
+  padding: 20px;
+
+}
+
+p {
+
+  color: white;
+  padding: 20px 0px 20px 20px;
 
 }
