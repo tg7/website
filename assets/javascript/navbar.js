@@ -4,18 +4,21 @@ $(".button-collapse").sideNav();
 
 // For Stick Footer
 var mn = $('.main-nav');
+var top = $('.top');
 
-$(window).scroll(function() {
+// $(window).scroll(function() {
 
-  if ($(this).scrollTop() > 300) {
-    mn.addClass('nav-scrolled');
-    console.log('added fixed');
-  } else {
-    mn.removeClass('nav-scrolled');
-    console.log('removed fixed');
-  }
+//   if ($(this).scrollTop() > 300) {
+//     mn.addClass('nav-scrolled');
+//     top.hide();
+//     console.log('added fixed');
+//   } else {
+//     mn.removeClass('nav-scrolled');
+//     top.show();
+//     console.log('removed fixed');
+//   }
 
-});
+// });
   
   //Enables Fullscreen Slider 
     $('.slider').slider({full_width: true});

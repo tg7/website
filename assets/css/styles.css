@@ -1,8 +1,8 @@
 body {
- padding-top: 300px;
+/* padding-top: 300px;*/
 }
 
-#test {
+/*#test {
 
   position: fixed;
   background: url(../images/flare.png) no-repeat;
@@ -12,7 +12,7 @@ body {
   height: 200px;
 
 }
-
+*/
 .top{
 
   background: url(../images/mid-section.jpg) no-repeat;
@@ -22,6 +22,7 @@ body {
   padding-top: 40px;
   position: fixed;
   top: 0px;
+  z-index: -1;
 
 }
 
@@ -50,24 +51,25 @@ li:hover {
  
 .aboutArea {
 
-  background:url(../images/bg-0.jpeg);
+  /*background:url(../images/bg-0.jpeg);*/
   /*Add Position Fixed*/
-  padding: 64px 50px 50px;
+  margin-top: 620px;
+  padding-top: 64px;
   position: relative;
   height: 650px;
-  background-size: cover;
- /* z-index: 300;*/
+  /*background-size: cover;*/
+/*  z-index: 300;*/
 }
 
 .projectArea {
 
-  background:url(../images/bg-2.jpeg);
-  padding: 64px 50px 50px;
+  /*background:url(../images/bg-2.jpeg);*/
   /*Add Position Fixed*/
+  padding-top: 64px;
   position: relative;
   height: 650px;
-  background-size: cover;
- /* z-index: 300;*/
+  /*background-size: cover;*/
+/*  z-index: 300;*/
 }
 
 .contactArea {
@@ -124,6 +126,19 @@ a.btn-hover:hover {
   box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
 }
 
+.parallax-container {
+
+  width: 100%;
+  height: 650px;
+}
+
+.parallax {
+
+  display: block;
+  width: 100%;
+/*  background-size: cover;*/
+}
+
 #mobile-demo {
 
   z-index: 1000;
@@ -142,10 +157,11 @@ a.btn-hover:hover {
 }
 
 
+
 h3 {
 
   color: white;
-  text-align: center;
+  /*text-align: center;*/
   padding: 20px;
 }
 
