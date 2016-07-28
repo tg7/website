@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 
 <title>Todd Germaine Web Portfolio</title>
@@ -63,41 +64,41 @@
     </div>
   </nav>
 
-
-  <div class="slider fullscreen">
-    <ul class="slides">
+<div class="row">
+  <div class="col s12">
+    <div class="slider fullscreen">
+      <ul class="slides">
       <li>
-        <img src="assets/images/bg-2.jpeg">
-        <div class="caption center-align">
-          <h3 class="shadow"><strong>Welcome To My Portfolio</strong></h3>
-          <h4 class="light grey-text text-lighten-3 shadow-lighter">Feel free to look around...</h4>
-        </div>
-      </li>
-    </ul>
-  </div>
-      
-  <div class="aboutArea parallax-container" id="about">
-    <div class="center-block">
-        <h3 class="center-align shadow">About Me</h3>
-    </div>
-    <div class="container about-container wow bounceInDown rounded">
-      <div class="row valign-wrapper">
-        <div class="center-block">
-         <div class="col s2">
-          <img src="assets/images/todd-1.jpeg" alt="todd" height="175" width="125" class="space valign center-align rounded">
+        <img src="assets/images/bg-2.jpeg" alt="background2">
+          <div class="caption center-align">
+            <h3 class="shadow"><strong>Welcome To My Portfolio</strong></h3>
+            <h4 class="light grey-text text-lighten-3 shadow-lighter">Solutions &amp; Full Stack Web Developer</h4>
           </div>
-        </div>
-        <div class="col s10 left-align">
-
-         <blockquote><p class="text">My name is Todd Germaine and I live in New Jersey. I'm extremely passionate when it comes to computers and web development because I love brainstorming ideas and bringing them to life. 
-          <br>
-          <br>
-          In my spare time I enjoy spending time with my family, fiancee and playing sports. My friends and family are very special to me and I enjoy helping others, providing solutions to problems and working to be able to provide for my family.</p></blockquote>
-
-        </div>
-      </div>
+      </li>
+     </ul>
     </div>
-    <div class="parallax" data-parallax="scroll" data-image-src="assets/images/bg-0.jpeg" style="display: block; z-index: 500;">
+  </div>
+</div>
+
+  <div class="row">
+    <div class="aboutArea parallax-container" id="about">
+      <div class="center-block">
+          <h3 class="center-align shadow">About Me</h3>
+      </div>
+      <br>
+      <div class="container wow bounceInDown rounded about-container valign-wrapper"><!--Add valign wrapper-->
+          <div class="col s12 m6 l3">
+            <img src="assets/images/todd-1.jpeg" alt="todd" class="valign center-align rounded responsive-img">
+          </div> 
+          <div class="col s12 m6 l9 left-align">
+           <blockquote><h5 class="flow-text">My name is Todd Germaine and I live in New Jersey. I'm extremely passionate when it comes to computers and web development because I love brainstorming ideas and bringing them to life. 
+            <br>
+            <br>
+            In my spare time I enjoy spending time with my family, playing sports and reading up on new technologies and libraries. My friends and family are very special to me and I enjoy helping others, finding solutions to problems and being to be able to provide for my family.</h5></blockquote>
+          </div>
+      </div>
+      <div class="parallax" data-parallax="scroll" data-image-src="assets/images/bg-0.jpeg">
+      </div>
     </div>
   </div> <!--End of About Section-->
 
@@ -105,14 +106,56 @@
     <div class="center-block">
       <h3 class="center-align shadow">Projects</h3>
     </div>
-
-    <div class="parallax" data-parallax="scroll" data-image-src="assets/images/mid-section.jpg" style="display: block; z-index: 100;">
-    </div>
+        <div class="row wow bounceInDown">
+          <div class="col s12 m6 l4 center-align">
+            <div class="section project-container">
+              <h5>Ninja Turtles RPG</h5>
+                <img src="assets/images/rpg-game.jpg" alt="rpgGame" class="responsive-img shadow">
+              <br>
+              <br>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
+                <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center-align">
+            <div class="section project-container">
+              <h5>ProConnect&copy;</h5>
+                <img src="assets/images/proconnect.jpg" alt="proConnect" class="shadow responsive-img">
+              <br>
+              <br>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
+                <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center-align">
+            <div class="section project-container">
+              <h5>Sports Trivia</h5>
+                <img src="assets/images/trivia-game.jpg" alt="sportsTrivia" class="shadow responsive-img">
+              <br>
+              <br>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
+                <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 center-align">
+              <div class="section project-container">
+                <h5>Ultimate Hangman</h5>
+                  <img src="assets/images/sports-hangman.jpg" alt="hangman" class="shadow responsive-img">
+                <br>
+                <br>
+                  <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
+                  <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
+              </div>
+          </div>
+        </div>
+      <div class="parallax" data-parallax="scroll" data-image-src="assets/images/mid-section.jpg">
+      </div>
   </div> <!--End of Project Section-->
 
   <div class="contactArea" id="contacts">
   <div class="center-block">
     <h3 class="center-align shadow">Contact Me</h3>
+
   </div>
 
   <div class="container">
@@ -157,15 +200,42 @@
 
 </body>
 
+<!--Scrollspy example-->
+<!-- 
+ <div class="row">
+    <div class="col s12 m9 l10">
+      <div id="introduction" class="section scrollspy">
+        <p>Content </p>
+      </div>
+
+      <div id="structure" class="section scrollspy">
+        <p>Content </p>
+      </div>
+
+      <div id="initialization" class="section scrollspy">
+        <p>Content </p>
+      </div>
+    </div>
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#initialization">Intialization</a></li>
+      </ul>
+    </div>
+  </div>
+ -->
+
 <!--Materialize Javascript-->
 
-<script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
-
 <script type="text/javascript" src="assets/javascript/navbar.js"></script>
+
+<script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
 
 <script type="text/javascript" src="assets/javascript/scroll.js"></script>
 
 <script type="text/javascript" src="assets/javascript/parallax.min.js"></script>
+
 <script type="text/javascript" src="assets/javascript/parallax.js"></script>
 
 <script src="assets/javascript/wow.min.js"></script>
