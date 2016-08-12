@@ -6,16 +6,17 @@ $(".button-collapse").sideNav();
 var mn = $('.main-nav');
 var top = $('.top');
 
+//Changes Color Of Footer
+
 // $(window).scroll(function() {
 
-//   if ($(this).scrollTop() > 300) {
-//     mn.addClass('nav-scrolled');
-//     top.hide();
-//     console.log('added fixed');
+//   if ($(this).scroll() > 617) {
+//     mn.addClass('nav-scrolled', 'transColor');
+
+//     console.log('added new-color');
 //   } else {
 //     mn.removeClass('nav-scrolled');
-//     top.show();
-//     console.log('removed fixed');
+//     console.log('removed new-color');
 //   }
 
 // });

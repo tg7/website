@@ -34,9 +34,9 @@ li:hover {
 
   /*background:url(../images/bg-0.jpeg);*/
   /*Add Position Fixed*/
-  margin-top: 620px;
-  padding-top: 64px;
-  display: block;
+  /*margin-top: 620px;*/
+  padding-top: 20px;
+  /*display: block;*/
   height: 650px;
   /*background-size: cover;*/
 /*  z-index: 300;*/
@@ -46,21 +46,21 @@ li:hover {
 
   /*background:url(../images/bg-2.jpeg);*/
   /*Add Position Fixed*/
-  padding-top: 64px;
+  padding-top: 20px;
   position: relative;
-  height: 650px;
+  height: 850px;
   /*background-size: cover;*/
 /*  z-index: 300;*/
 }
 
 .contactArea {
 
-  background:url(../images/bg-3.jpeg);
-  padding: 64px 50px 50px;
-  position: relative;
+  /*background:url(../images/bg-3.jpeg);*/
+  padding-top: 20px;
+  /*position: relative;*/
   /*Add Position Fixed*/
-  height: 650px;
-  background-size: cover;
+ /* height: 650px;*/
+  /*background-size: cover;*/
  /* z-index: 300;*/
 }
 
@@ -75,13 +75,17 @@ li:hover {
 }
 
 .nav-scrolled {
-
-  top: 0px;
-  width: 100%;
-  position: fixed;
   z-index: 5;
-  background-color: rgba(0, 0, 0, .4);
+  position: fixed;
  
+}
+
+.transColor {
+
+  background-color: rgba(250, 250, 250, 1);
+  color: black;
+  z-index: 5;
+  position: fixed;
 }
 
 .modalBig {
@@ -109,16 +113,20 @@ a.btn-hover:hover {
 
 .parallax-container {
 
+  /*height: 617px;*/
+  /*display: block;*/
   width: 100%;
-  /*height: 650px;*/
 }
 
-.parallax {
+.larger-container {
 
-  display: block;
-  width: 100%;
-  z-index: 500;
-/*  background-size: cover;*/
+  height: 900px;
+}
+
+.flow-text {
+
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .shadow {
@@ -148,10 +156,23 @@ a.btn-hover:hover {
 
 }
 
-.about-container {
+.home-container {
+
+  margin-top: 100px;
+  padding: 25px 25px 10px 25px;
+  text-align: center;
+
+}
+
+
+}
+
+.about-section {
 
   background: rgba(0 ,0, 0, 0.298);
+  /*margin-top: 100px;*/
   padding: 25px 25px 10px 25px;
+  text-align: center;
 }
 
 .project-container {
@@ -172,12 +193,36 @@ a.btn-hover:hover {
 
 }
 
-blockquote {
+.show {
+
+  display: block;
+
+}
+
+.dark {
+
+  color: black;
+}
+
+/*blockquote {
 
   border-left: solid 5px black;
   padding-left: 10px;
   margin-right: 10px;
 }
+*/
+
+h1 {
+  color: white;
+  padding: 20px;
+
+}
+h2 {
+
+  color: white;
+  padding: 20px;
+}
+
 
 h3 {
 

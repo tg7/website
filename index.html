@@ -33,18 +33,7 @@
 
 <body>
 
-<!--Main Container-->
-
-<!-- <div class="top">
-  <div class="row center-align">
-    <div class="col l5">
-     <img src="assets/images/todd-1.jpeg" alt="todd" height="220px" width="135px" class="responsive-img rounded">
-    </div>
-    <div class="col l7"><h4>Welcome To My Portfolio</h4>
-    </div>
-  </div>
-</div> -->
-
+<!--Navbar-->
  <nav class="main-nav nav-scrolled">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo">Todd Germaine</a>
@@ -62,56 +51,65 @@
         <li><a href="#contacts">Contact Me</a></li>
       </ul>
     </div>
-  </nav>
+  </nav><!--End Of Navbar-->
 
+<!--Home Area-->
 <div class="row">
-  <div class="col s12">
-    <div class="slider fullscreen">
-      <ul class="slides">
-      <li>
-        <img src="assets/images/bg-2.jpeg" alt="background2">
-          <div class="caption center-align">
-            <h3 class="shadow"><strong>Welcome To My Portfolio</strong></h3>
-            <h4 class="light grey-text text-lighten-3 shadow-lighter">Solutions &amp; Full Stack Web Developer</h4>
-          </div>
-      </li>
-     </ul>
+    <div class="parallax-container" id="home">
+      <div class="wow bounceInDown home-container"><!--Add valign wrapper-->
+          <h5 class="dark shadow-lighter">Welcome To My Portfolio</h5>
+          <h4 class="dark shadow-lighter">Solutions &amp; Full Stack Web Developer</h4>
+      </div>
     </div>
-  </div>
-</div>
-
-  <div class="row">
-    <div class="aboutArea parallax-container" id="about">
-      <div class="center-block">
-          <h3 class="center-align shadow">About Me</h3>
-      </div>
-      <br>
-      <div class="container wow bounceInDown rounded about-container valign-wrapper"><!--Add valign wrapper-->
-          <div class="col s12 m6 l3">
-            <img src="assets/images/todd-1.jpeg" alt="todd" class="valign center-align rounded responsive-img">
-          </div> 
-          <div class="col s12 m6 l9 left-align">
-           <blockquote><h5 class="flow-text">My name is Todd Germaine and I live in New Jersey. I'm extremely passionate when it comes to computers and web development because I love brainstorming ideas and bringing them to life. 
-            <br>
-            <br>
-            In my spare time I enjoy spending time with my family, playing sports and reading up on new technologies and libraries. My friends and family are very special to me and I enjoy helping others, finding solutions to problems and being to be able to provide for my family.</h5></blockquote>
-          </div>
-      </div>
       <div class="parallax" data-parallax="scroll" data-image-src="assets/images/bg-0.jpeg">
       </div>
-    </div>
-  </div> <!--End of About Section-->
+  </div> <!--End of Home Area-->
 
-  <div class="projectArea parallax-container" id="projects">
-    <div class="center-block">
-      <h3 class="center-align shadow">Projects</h3>
-    </div>
-        <div class="row wow bounceInDown">
+<!--Section-->
+<div class="section black" id="about">
+  <div class="row container wow bounceInDown">
+  <h1 class="center-align">About Me - Q&amp;A</h1>
+  <div class="divider"></div>
+  </div>
+
+  <div class="row container">
+
+  <div class="col s12 m6 l3">
+    <img src="assets/images/todd-1.jpeg" alt="todd" class="center-align rounded responsive-img pushDown">
+  </div> 
+  <div class="col s12 m6 l9 left-align">
+  <h5>Location: New Jersey/NY Metro Area</h5>
+  <h5>Experience:</h5>
+  <p class="flow-text">
+    Self-motivated, driven professional with 3+ years’ experience in web development, B2B (business-to-business) and B2C (business-to-consumer) solutions/sales and CRM/CMS management. 
+  </p>
+  <h5>Technical Specialities:</h5>
+  <p class="flow-text">
+    Proficient within HTML5, CSS3, Bootstrap, JavaScript, jQuery, Command Line, Git, GitHub, Responsive Design, API, JSON, Node.js, MySQL, Firebase &amp; AJAX
+  </p>
+  <h5>Why Development?</h5>
+  <p class="flow-text">From a young age I've always had a creative mind and being a developer there's no limit on what to create, fix or invent. I enjoy working and colloborating with others, being a sponge to new information and reading and learning new libraries to adapt to the newest technologies.</p>
+  <h5>Hobbies:</h5>
+  <p class="flow-text">
+    In my spare time I enjoy spending time with my family, playing sports and reading up on new technologies and libraries. My friends and family are very special to me and I enjoy helping others, finding solutions to problems and being to be able to provide for my family.</p>
+  </div>
+
+  </div>
+</div><!--End Of Section-->
+
+<!--About Area-->
+<div class="row">
+    <div class="projectArea parallax-container" id="projects">
+      <div class="container wow bounceInDown"><!--Add valign wrapper-->
+         <h1 class="center-align">Projects</h1>
+         <div class="divider"></div>
+      </div>
+
+      <div class="row wow bounceInDown">
           <div class="col s12 m6 l4 center-align">
             <div class="section project-container">
               <h5>Ninja Turtles RPG</h5>
                 <img src="assets/images/rpg-game.jpg" alt="rpgGame" class="responsive-img shadow">
-              <br>
               <br>
                 <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
                 <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
@@ -122,7 +120,6 @@
               <h5>ProConnect&copy;</h5>
                 <img src="assets/images/proconnect.jpg" alt="proConnect" class="shadow responsive-img">
               <br>
-              <br>
                 <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
                 <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
             </div>
@@ -131,7 +128,6 @@
             <div class="section project-container">
               <h5>Sports Trivia</h5>
                 <img src="assets/images/trivia-game.jpg" alt="sportsTrivia" class="shadow responsive-img">
-              <br>
               <br>
                 <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
                 <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
@@ -142,19 +138,36 @@
                 <h5>Ultimate Hangman</h5>
                   <img src="assets/images/sports-hangman.jpg" alt="hangman" class="shadow responsive-img">
                 <br>
-                <br>
                   <a class="waves-effect waves-light btn"><i class="material-icons left">launch</i>OPEN</a>
                   <a href="#" class="waves-effect waves-dark"><img src="assets/images/github.png" height="40" width="40" alt="github" class="shadow whiteBg"></a>
               </div>
           </div>
         </div>
-      <div class="parallax" data-parallax="scroll" data-image-src="assets/images/mid-section.jpg">
-      </div>
-  </div> <!--End of Project Section-->
 
-  <div class="contactArea" id="contacts">
+
+
+      <div class="parallax" data-parallax="scroll" data-image-src="assets/images/bg-5.jpeg">
+      </div>
+    </div>
+  </div> <!--End of About Area-->
+
+<!--Section-->
+  <div class="section white valign-wrapper">
+    <div class="row container valign center-block">
+    </div>
+  </div><!--End Of Section-->
+
+ <!--Final Section-->
+<div class="section grey valign-wrapper">
+    <div class="row container valign center-block">
+      <h2 class="center-align" style="color: white">Contact Me</h2>
+    </div>
+  </div>
+
+<div class="parallax-container" id="contacts">
   <div class="center-block">
-    <h3 class="center-align shadow">Contact Me</h3>
+    <h1 class="center-align shadow contactArea">Contact Me</h1>
+<!--     <div class="divider"></div> -->
 
   </div>
 
@@ -165,24 +178,24 @@
   <div class="row formBg wow fadeInLeft"> 
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6 l6">
           <i class="material-icons prefix">account_circle</i>
           <input id="first_name" type="text" class="validate">
           <label for="first_name">Name</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6 l6">
           <i class="material-icons prefix">email</i>
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6 l6">
           <i class="material-icons prefix">phone</i>
           <input id="phoneNumber" type="tel" class="validate">
           <label for="phoneNumber">Phone</label>
         </div>
       </div>
       <div class="row">
-        <div class="input-field col s12">
+        <div class="input-field col s12 m12 l12">
           <i class="material-icons prefix">mode_edit</i>
           <textarea id="textarea1" class="materialize-textarea"></textarea>
           <label for="textarea1">Message</label>
@@ -194,9 +207,9 @@
     </form> 
    </div>
   </div>
+  <div class="parallax" data-parallax="scroll" data-image-src="assets/images/bg-3.jpeg">
+  </div>
 </div>
-
- <!--  <div id="test"></div> -->
 
 </body>
 
@@ -227,10 +240,9 @@
  -->
 
 <!--Materialize Javascript-->
+<script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
 
 <script type="text/javascript" src="assets/javascript/navbar.js"></script>
-
-<script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
 
 <script type="text/javascript" src="assets/javascript/scroll.js"></script>
 
