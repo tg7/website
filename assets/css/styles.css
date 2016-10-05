@@ -10,6 +10,17 @@ body {
   position: relative;
 }
 
+.skillsArea {
+
+  /*background-color: yellow;*/
+  padding: 15px;
+}
+
+.languages {
+
+  padding: 10px;
+}
+
 .smLinks {
  /* background-color: green;*/
   text-align: center;
