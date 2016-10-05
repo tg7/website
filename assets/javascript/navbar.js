@@ -28,3 +28,14 @@ var top = $('.top');
   //Triggers Modal To Pop Up when clicked
     $('.modal-trigger').leanModal();
   });
+
+  
+            // Masonry JQuery
+
+$('.grid').masonry({
+  // set itemSelector so .grid-sizer is not used in layout
+  itemSelector: '.grid-item',
+  // use element for option
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+})

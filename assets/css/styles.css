@@ -2,18 +2,49 @@ body {
 
 }
 
+.topBar {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*background-color: grey;*/
+  position: relative;
+}
+
+.smLinks {
+ /* background-color: green;*/
+  text-align: center;
+  top: 35px;
+  position: fixed;
+}
+
+.darkText {
+
+  color: black;
+}
 .top{
 
-  background: url(../images/mid-section.jpg) no-repeat;
+  /*background: url(../images/mid-section.jpg) no-repeat;*/
   /*background-color: white;*/
   height: 300px;
   width: 100%;
   padding-top: 40px;
   position: fixed;
-  top: 0px;
+  top: 2px;
   z-index: -1;
 
 }
+
+.section-projects {
+  padding-top: 25px;
+  height: 500px;
+}
+
+/*.footer {
+
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+}*/
 
 .wideNav {
 
@@ -30,40 +61,6 @@ li:hover {
   padding: 20px;
 }
  
-.aboutArea {
-
-  /*background:url(../images/bg-0.jpeg);*/
-  /*Add Position Fixed*/
-  /*margin-top: 620px;*/
-  padding-top: 20px;
-  /*display: block;*/
-  height: 650px;
-  /*background-size: cover;*/
-/*  z-index: 300;*/
-}
-
-.projectArea {
-
-  /*background:url(../images/bg-2.jpeg);*/
-  /*Add Position Fixed*/
-  padding-top: 20px;
-  position: relative;
-  height: 850px;
-  /*background-size: cover;*/
-/*  z-index: 300;*/
-}
-
-.contactArea {
-
-  /*background:url(../images/bg-3.jpeg);*/
-  padding-top: 20px;
-  /*position: relative;*/
-  /*Add Position Fixed*/
- /* height: 650px;*/
-  /*background-size: cover;*/
- /* z-index: 300;*/
-}
-
 .nav-wrapper {
 
   z-index: 400;
@@ -107,14 +104,16 @@ a.btn-hover:hover {
 
 .rounded {
 
-  border-radius: 15px;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+  border-radius: 35px;
+  /*box-shadow: 0 4px 5px rgba(0, 0, 0, .5);*/
 }
 
-.parallax-container {
+}
+.parallax {
 
   /*height: 617px;*/
   /*display: block;*/
+  background-size: contain !important;
   width: 100%;
 }
 
@@ -132,11 +131,13 @@ a.btn-hover:hover {
 .shadow {
 
   text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.298);
+  padding: 0px;
 }
 
 .shadow-lighter {
 
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.298);
+   padding: 0px;
 }
 
 #mobile-demo {
@@ -244,9 +245,39 @@ h5 {
 
 }
 
+h6 {
+
+  font-family: 'Bree Serif', serif;
+}
+
 p {
 
   color: white;
   padding: 20px 0px 20px 20px;
 
 }
+
+.grid-item {
+  float: left;
+  width: 160px;
+  height: 120px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  padding: 2px;
+  margin-bottom: 105px;
+
+}
+/*.grid-item--width2 { width: 350px; }
+.grid-item--height2 { height: 240px; }
+
+.grid-sizer,
+.grid-item { width: 30%; }
+/* 2 columns */
+.grid-item--width2 { width: 50%; }*/
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
