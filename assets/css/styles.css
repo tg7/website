@@ -2,6 +2,14 @@ body {
 
 }
 
+.color {
+
+  background-color: green;
+}
+.row {
+
+  margin-bottom: 0px;
+}
 .topBar {
 
   padding-top: 10px;
@@ -12,7 +20,7 @@ body {
 
 .skillsArea {
 
-  /*background-color: yellow;*/
+  background-color: #D3D3D3;
   padding: 15px;
 }
 
@@ -24,7 +32,7 @@ body {
 .smLinks {
  /* background-color: green;*/
   text-align: center;
-  top: 35px;
+  top: 20px;
   position: fixed;
 }
 
@@ -47,7 +55,6 @@ body {
 
 .section-companies {
   padding-top: 25px;
-  height: 200px;
 }
 
 /*.footer {
@@ -115,7 +122,7 @@ a.btn-hover:hover {
 
 .rounded {
 
-  border-radius: 35px;
+ /* border-radius: 35px;*/
   /*box-shadow: 0 4px 5px rgba(0, 0, 0, .5);*/
 }
 
@@ -278,6 +285,7 @@ p {
   margin-bottom: 105px;
 
 }
+
 /*.grid-item--width2 { width: 350px; }
 .grid-item--height2 { height: 240px; }
 
@@ -293,3 +301,95 @@ p {
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
+
+@media screen and (max-width: 600px) {
+  #logo {
+    float: none;
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: auto;
+  }
+
+    .topBar {
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 70px;
+  }
+    .smLinks {
+      top: 230px;
+      position: absolute;
+      /*padding-top: 60px;*/
+  }
+    div > img:first-child {
+     /*background-color: yellow;*/
+   
+    }
+
+    .flow-text {
+      font-size: 22px;
+      font-weight: 350;
+      margin-bottom: 0px;
+    }
+
+    .skills {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .section-companies {
+      padding-bottom: 25px;
+
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
