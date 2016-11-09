@@ -1,0 +1,340 @@
+html, body { 
+  background: url('http://imgur.com/gallery/8CmZzOU') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.row {
+
+  margin-bottom: 0px;
+}
+.topBar {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  height: 100%;
+
+}
+
+.skillsArea {
+
+  background-color: #D3D3D3;
+  padding: 15px;
+}
+
+.languages {
+
+  padding: 10px;
+}
+
+.smLinks {
+ /* background-color: green;*/
+  text-align: center;
+  top: 45px;
+  position: fixed;
+}
+
+.darkText {
+
+  color: black;
+}
+.top{
+
+  height: 300px;
+  width: 100%;
+  padding-top: 40px;
+  position: fixed;
+  top: 2px;
+  z-index: -1;
+
+}
+
+.section-companies {
+  padding-top: 25px;
+}
+
+.wideNav {
+
+  padding: 0px;
+}
+
+li:hover {
+
+  margin-top: 0px;
+}
+
+.wideButton {
+
+  padding: 20px;
+}
+ 
+.nav-wrapper {
+
+  z-index: 400;
+  height: 64px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+  margin-bottom: -125px;
+  background-color: black;
+  position: relative;
+}
+
+.nav-scrolled {
+  z-index: 5;
+  position: fixed;
+ 
+}
+
+.transColor {
+
+  background-color: rgba(250, 250, 250, 1);
+  color: black;
+  z-index: 5;
+  position: fixed;
+}
+
+.modalBig {
+
+  height: 700px;
+}
+
+.formBg {
+
+  background: rgba(250, 250, 250, 1);
+  padding: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+
+a.btn-hover:hover {
+
+ background-color: #a7ffeb;
+}
+
+.rounded {
+
+ /* border-radius: 35px;*/
+  /*box-shadow: 0 4px 5px rgba(0, 0, 0, .5);*/
+}
+
+}
+.parallax {
+
+  /*height: 617px;*/
+  /*display: block;*/
+  background-size: contain !important;
+  width: 100%;
+}
+
+.larger-container {
+
+  height: 900px;
+}
+
+.flow-text {
+
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.shadow {
+
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.298);
+  padding: 0px;
+}
+
+.shadow-lighter {
+
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.298);
+   padding: 0px;
+}
+
+#mobile-demo {
+
+  z-index: 1000;
+
+}
+
+#sidenav-overlay {
+
+  z-index: -1;
+}
+
+#sidenav-overlay:hover {
+
+  color: white;
+
+}
+
+.home-container {
+
+  margin-top: 100px;
+  padding: 25px 25px 10px 25px;
+  text-align: center;
+
+}
+
+
+}
+
+.about-section {
+
+  background: rgba(0 ,0, 0, 0.298);
+  /*margin-top: 100px;*/
+  padding: 25px 25px 10px 25px;
+  text-align: center;
+}
+
+.project-container {
+
+  /*height: 325px;*/
+  background: rgba(250 ,250, 250, 0.198);
+  border-radius: 50px;
+  padding: 0px 20px 0px 20px;
+  /*margin: 0px 5px 0px 5px;*/
+}
+
+.whiteBg {
+
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 5px 0px 0px 15px;
+  background-color: white;
+
+}
+
+.show {
+
+  display: block;
+
+}
+
+.dark {
+
+  color: black;
+}
+
+/*blockquote {
+
+  border-left: solid 5px black;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+*/
+
+h1 {
+  color: white;
+  padding: 20px;
+
+}
+h2 {
+
+  color: white;
+  padding: 20px;
+}
+
+
+h3 {
+
+  color: white;
+  padding: 20px;
+}
+
+h4 {
+
+  color: white;
+  padding: 20px;
+
+}
+
+h5 {
+
+  color: white;
+  padding: 5px;
+
+}
+
+h6 {
+
+  font-family: 'Bree Serif', serif;
+}
+
+p {
+
+  color: white;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.grid-item {
+  float: left;
+  width: 160px;
+  height: 120px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  padding: 2px;
+  margin-bottom: 105px;
+
+}
+
+/*.grid-item--width2 { width: 350px; }
+.grid-item--height2 { height: 240px; }
+
+.grid-sizer,
+.grid-item { width: 30%; }
+/* 2 columns */
+.grid-item--width2 { width: 50%; }*/
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+@media screen and (max-width: 600px) {
+  #logo {
+    float: none;
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: auto;
+  }
+
+    .topBar {
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 70px;
+  }
+    .smLinks {
+      top: 230px;
+      position: absolute;
+      /*padding-top: 60px;*/
+  }
+    div > img:first-child {
+     /*background-color: yellow;*/
+   
+    }
+
+    .flow-text {
+      font-size: 22px;
+      font-weight: 350;
+      margin-bottom: 0px;
+    }
+
+    .skills {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .section-companies {
+      padding-bottom: 25px;
+
+    }
+}
+
