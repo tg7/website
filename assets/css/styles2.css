@@ -19,7 +19,11 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
+  background: url('../images/winterBg.jpg') no-repeat;
+  width: 100%;
   height: 100%;
+  background-size: contain;
+
 
 }
 
